@@ -106,6 +106,9 @@ a.twitter{background-image:url("../images/social/twitter.svg");}
 a.linkedin{background-image:url("../images/social/linkedin.svg");}
 .show-for-small a.linkedin, .no-touch a.linkedin:hover{background-image:url("../images/social/linkedin-black.svg");}
 
+a.instagram{background-image:url("../images/feed/instagram.svg");}
+.show-for-small a.instagram, .no-touch a.instagram:hover{background-image:url("../images/feed/instagram.svg");}
+
 a.mail{background-image:url("../images/social/mail.svg");}
 .show-for-small a.mail, .no-touch a.mail:hover{background-image:url("../images/social/mail-black.svg");}
 

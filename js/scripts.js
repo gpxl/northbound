@@ -304,7 +304,7 @@ jQuery(document).ready(function() {
 	jQuery.fn.spectragram.accessData={accessToken:'2136707.12e2743.9576ae17af4e4ad4aebf6b72433c01fd',clientID:'12e27430fe054c72839c5f16f86177e1'};
 
 	jQuery('#instagram').spectragram('getUserFeed',{
-	    query: 'alotofbradshaw',
+	    query: 'northboundpictures',
 	    max: 12
 	});
 
@@ -459,3 +459,11 @@ jQuery(document).ready(function() {
 		return false;
 	});
 });
+
+/* Google Analytics */
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-38688703-1', 'northboundpictures.com');
+  ga('send', 'pageview');
