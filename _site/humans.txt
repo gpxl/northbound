@@ -1,6 +1,8 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+/* TEAM */
+Tyler Jackson
+Grant Legan
+Victor Saad
+Gerlando Piro
 
 /* SITE */
   Standards: HTML5, CSS3

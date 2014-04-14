@@ -305,7 +305,7 @@ jQuery(document).ready(function() {
 
 	jQuery('#instagram').spectragram('getUserFeed',{
 	    query: 'northboundpictures',
-	    max: 12
+	    max: 6
 	});
 
   jQuery('.feed').hide();
