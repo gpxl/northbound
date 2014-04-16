@@ -31,7 +31,7 @@
 					<div id="intro">
             <p><img src="images/logo-line.png" class="logo-line"></p>
             <h1>Stories<br>Beautifully<br>Told</h1>
-            <p><a href="#" data-reveal-id="videoModal">Play Demo</a></p>
+            <p><a href="#" id="work-8" class="work">Play Demo</a></p>
           </div>
         </div>
       </div>
@@ -191,13 +191,8 @@
         <img src="http://b.vimeocdn.com/ts/463/187/463187302_640.jpg" />
       </div>
     </div>
-    <div class="large-4 columns end mix all video">
-      <div id="work-7" class="work">
-        <img src="http://b.vimeocdn.com/ts/463/187/463187454_640.jpg" />
-      </div>
-    </div>
     <div class="large-4 columns mix all video">
-      <div id="work-8" class="work">
+      <div id="work-7" class="work">
         <img src="http://b.vimeocdn.com/ts/463/181/463181969_640.jpg" />
       </div>
     </div>
@@ -313,17 +308,18 @@
   <div class="large-8 large-offset-2 columns">
     <h1>Contact Us</h1>
     <p>We’re heading north and we want you to come with us.</p>
-    <form id="contact-form" action="/" method="post">
+    <form id="contact-form" action="http://northboundpictures.us8.list-manage1.com/subscribe/post?u=070720658151914a6dad09363&amp;id=a65fd2a4ad" method="post">
       <div class="row">
        <div class="large-12 columns formContainer">
-        <input type="text" name="name" id="name" value="" class="requiredField" placeholder="Name">
+        <input type="text" name="NAME" id="name" value="" class="requiredField" placeholder="Name">
       </div>
       <div class="large-12 columns formContainer">
-        <input type="text" name="email" id="email" value="" class="requiredField email" placeholder="Email">
+        <input type="text" value="" name="EMAIL" class="requiredField email" id="email" placeholder="Email">
       </div>
       <div class="large-12 columns formContainer">
-        <textarea name="message" id="message" rows="20" cols="30" class="requiredField" placeholder="Briefing"></textarea>
+        <textarea name="MESSAGE" id="message" rows="20" cols="30" class="requiredField" placeholder="Briefing"></textarea>
       </div>
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_070720658151914a6dad09363_a65fd2a4ad" value=""></div>
       <div class="large-12 columns formContainer">
         <input type="hidden" name="submitted" id="submitted" class="button" value="SEND"><button id="submit" class="button medium" type="submit">SEND</button>
       </div>
@@ -427,16 +423,8 @@
 <script src="js/jquery.tweet.js"></script>
 <script src="js/jquery.flickr.js"></script>
 <script src="js/jquery.instagram.js"></script>
-
+<script src="js/jquery.ajaxchimp.min.js"></script>
 <!-- Cotton Specific Scripts -->
 <script src="js/scripts.js"></script>
-
-<div id="videoModal" class="reveal-modal large" data-reveal>
-  <div class="flex-video">
-    <iframe width="960" height="540" src="http://player.vimeo.com/video/75877185?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
-
 </body>
 </html>
