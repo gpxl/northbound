@@ -46,7 +46,7 @@ select{color: white;padding: 0 1em; height: 2.4em;outline: none;border: 0;border
 #intro h1{font-family: 'Cabin','Helvetica Neue';line-height: 1.2em; text-transform: uppercase; letter-spacing: .1em; margin-top: 0em; margin-bottom: 0;color: white;font-size: 1.875em;padding-top: 0em;}
 #intro h2{margin-bottom: 0;font-size: 1.5em;opacity:0;padding-top: 2em;}
 #intro p, #intro a {color:white;}
-#intro .logo-line { width: 50px; }
+#intro .logo-line { width: 50px; text-align: center;}
 
 
 #explore{margin-top: 0em;}
