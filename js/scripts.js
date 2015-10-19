@@ -120,7 +120,7 @@ jQuery('.scroll').bind('click',function(event){
 var swiper = jQuery('#swiper').swiper({
   loop:true,
   grabCursor: true,
-  autoPlay: 2000
+  autoPlay: 1000
 });
 
 /* On Load swiper height should adjust to img size */
